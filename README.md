@@ -55,7 +55,7 @@ When an object is detected within exactly **20cm**, the autonomous override cuts
 ## 🚀 Getting Started
 
 1. **Hardware Setup:** Assemble the chassis, connect the motors to the onboard terminals, and wire the sensors according to the mapping tables above. Power the motors via an external Lithium battery (do not draw motor power directly from the Arduino's 5V supply).
-2. **Upload Master Code:** Open `Firmware/Master_Code/Master_Code.ino` in the Arduino IDE and upload it to your Arduino R4. Set the Serial Monitor baud rate to `115200`.
-3. **Upload Slave Code:** Disconnect the HC-05 module, open `Firmware/Slave_Code/Slave_Code.ino`, and upload it to your Arduino Nano. Set the Arduino IDE Baud Rate to `9600`. Reconnect the Bluetooth module.
+2. **Upload Master Code:** Open `Master_Code.ino` in the Arduino IDE and upload it to your Arduino R4. Set the Serial Monitor baud rate to `115200`.
+3. **Upload Slave Code:** Disconnect the HC-05 module, open `Slave_Code.ino`, and upload it to your Arduino Nano. Set the Arduino IDE Baud Rate to `9600`. Reconnect the Bluetooth module.
 4. **Operation:** Power up the vehicle. The LCD will display `DESHBOT CAR`. Pair your smartphone/Master module with the HC-05 and begin operation!
   
